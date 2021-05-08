@@ -1,0 +1,55 @@
+.trending {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 9px;
+  margin: 5px 0;
+  overflow: hidden;
+  background-color: #282c34;
+  border-radius: 8px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+.media:hover {
+  background-color: white;
+  color: black;
+}
+.poster {
+  border-radius: 4px;
+  max-width: 100%;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+}
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 2px;
+  padding-bottom: 5px;
+}
+.media-back {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  max-height: 100%;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+.media-back p {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+.media:hover .media-back {
+  transform: translateX(0%);
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.app {
+    /* background-color: #39445a; */
+    color: white;
+   
+    padding-bottom: 70px;
+  }
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.header{
+    font-size: 50px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(100, 177, 190);
+}
+.pageTitle {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vw;
+    padding: 10px;
+    color: white;
+  }
